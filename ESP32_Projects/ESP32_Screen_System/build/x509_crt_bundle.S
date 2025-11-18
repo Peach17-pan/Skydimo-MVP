@@ -1,4 +1,4 @@
-/* * Data converted from D:/ESP32_Projects/ESP32_Screen_System/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

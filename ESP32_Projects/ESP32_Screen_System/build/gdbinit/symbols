@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file D:/ESP32_Projects/ESP32_Screen_System/build/bootloader/bootloader.elf
+    add-symbol-file F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file D:/ESP32_Projects/ESP32_Screen_System/build/ESP32_Screen_System.elf
+file F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/my_esp32_project.elf

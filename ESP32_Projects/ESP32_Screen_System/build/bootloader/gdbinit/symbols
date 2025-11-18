@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file D:/ESP32_Projects/ESP32_Screen_System/build/bootloader/bootloader.elf
+file F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader/bootloader.elf

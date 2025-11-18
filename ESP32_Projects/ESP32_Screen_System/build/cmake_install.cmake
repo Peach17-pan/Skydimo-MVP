@@ -1,8 +1,8 @@
-# Install script for directory: D:/ESP32_Projects/ESP32_Screen_System
+# Install script for directory: F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ESP32_Screen_System")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/my_esp32_project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,9 +38,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("D:/ESP32_Projects/ESP32_Screen_System/build/esp-idf/cmake_install.cmake")
-
+  # Include the install script for the subdirectory.
+  include("F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -58,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "D:/ESP32_Projects/ESP32_Screen_System/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

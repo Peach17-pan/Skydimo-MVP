@@ -1,4 +1,4 @@
-# 项目根目录的 CMakeLists.txt
-cmake_minimum_required(VERSION 3.5)
+# 最简单的配置
+cmake_minimum_required(VERSION 3.16)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(ESP32_Screen_System)
+project(my_esp32_project)

@@ -10,18 +10,18 @@ if(NOT EXISTS "D:/Users/hp/esp/v5.4/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "D:/Users/hp/esp/v5.4/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader"
-  "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix"
-  "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/tmp"
-  "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp"
-  "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src"
-  "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader"
+  "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix"
+  "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/tmp"
+  "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src"
+  "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
