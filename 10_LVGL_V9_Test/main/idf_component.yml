@@ -1,0 +1,15 @@
+# main/idf_component.yml
+version: "1.0.0"
+dependencies:
+  idf: ">=5.0"
+  
+  # 项目内部组件（无需修改）
+  i2c_bsp:
+    path: ../components/i2c_bsp
+  lcd_bl_pwm_bsp:
+    path: ../components/lcd_bl_pwm_bsp
+  button_bsp:
+    path: ../components/button_bsp
+  mode_manager:
+    path: ../components/mode_manager
+    

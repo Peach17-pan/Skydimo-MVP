@@ -1,4 +1,8 @@
-# 最简单的配置
-cmake_minimum_required(VERSION 3.16)
+# The following five lines of boilerplate have to be in your project's
+# CMakeLists in this exact order for cmake to work correctly
+cmake_minimum_required(VERSION 3.5)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(my_esp32_project)
+project(ESP32_SCREEN_SYSTEM)
+
+# 添加组件目录
+set(EXTRA_COMPONENT_DIRS components/lvgl_ports)

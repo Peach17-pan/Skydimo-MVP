@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "F:/1/GitHub/Skydimo-MVP/10_LVGL_V9_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

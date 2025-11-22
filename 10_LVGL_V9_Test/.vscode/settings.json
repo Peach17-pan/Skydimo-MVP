@@ -1,0 +1,20 @@
+{
+  "idf.portWin": "COM11",
+  "idf.flashType": "UART",
+  "idf.adapterTarget": "esp32s3",
+  "idf.customExtraVars": {
+    "IDF_COMPONENT_REGISTRY_URL": "",
+    "IDF_TARGET": "esp32s3"
+  },
+  "idf.toolsPath": "F:\\Espressif",
+  "idf.espIdfPath": "F:\\user\\hp\\esp\\v5.4.3\\esp-idf",
+  "clangd.path": "F:\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=F:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=f:\\1\\GitHub\\Skydimo-MVP\\10_LVGL_V9_Test\\build"
+  ],
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ]
+}

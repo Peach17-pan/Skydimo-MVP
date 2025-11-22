@@ -4,600 +4,567 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:5 (project)"
     message: |
-      The target system is: Generic -  - 
-      The host system is: Windows - 10.0.22621 - AMD64
+      The system is: Windows - 10.0.22621 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe 
-      Build flags: -mlongcalls;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Compiler: D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/cc.exe 
+      Build flags: 
       Id flags:  
       
       The output was:
       0
       
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/3.30.2/CompilerIdC/a.out
+        F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/3.28.1/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe 
-      Build flags: -mlongcalls;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Compiler: D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/c++.exe 
+      Build flags: 
       Id flags:  
       
       The output was:
       0
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/3.30.2/CompilerIdCXX/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      xtensa-esp-elf-gcc.exe (crosstool-NG esp-14.2.0_20250730) 14.2.0
-      Copyright (C) 2024 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-z56x2y"
-      binary: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-z56x2y"
+      source: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-unirp5"
+      binary: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-unirp5"
     cmakeVariables:
-      CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
-      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake;D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/third_party"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-z56x2y'
+        Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-unirp5'
         
-        Run Build Command(s): D:/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_c9575
-        [1/2] D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj -c D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/Ninja/bin/ninja.exe -v cmTC_b472c
+        [1/2] D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj -c D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
-        Target: xtensa-esp-elf
-        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c9575.dir/'
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1.exe -quiet -v -imultilib esp32s3 -iprefix D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c9575.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\windows\\TEMP\\ccSVrH4O.s
-        GNU C17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)
-        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b472c.dir/'
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b472c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\cct9DWD4.s
+        GNU C23 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"
-        ignoring nonexistent directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
-        Compiler executable checksum: 38d46cce87b47d821392243f8c902d07
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c9575.dir/'
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj C:\\windows\\TEMP\\ccSVrH4O.s
-        COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
-        LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/\x0d
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj -o cmTC_c9575   && cd ."
+        Compiler executable checksum: 095b29ed3549f595ba8c614f295895ef
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b472c.dir/'
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj C:\\Users\\hp\\AppData\\Local\\Temp\\cct9DWD4.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe  -v CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj -o cmTC_b472c.exe -Wl,--out-implib,libcmTC_b472c.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
-        COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
-        COLLECT_LTO_WRAPPER=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe
-        Target: xtensa-esp-elf
-        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
-        COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
-        LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_c9575' '-dumpdir' 'cmTC_c9575.'
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\windows\\TEMP\\ccazIHyY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_c9575 D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o\x0d
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_c9575' '-dumpdir' 'cmTC_c9575.'\x0d
+        COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe
+        COLLECT_LTO_WRAPPER=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b472c.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b472c.'
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\cc0Lnsic.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b472c.exe D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_b472c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b472c.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b472c.'\x0d
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         end of search list found
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include]
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
-        implicit include dirs: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-z56x2y']
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-unirp5']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_c9575]
-        ignore line: [[1/2] D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj -c D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/Ninja/bin/ninja.exe -v cmTC_b472c]
+        ignore line: [[1/2] D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj -c D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
-        ignore line: [Target: xtensa-esp-elf]
-        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c9575.dir/']
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1.exe -quiet -v -imultilib esp32s3 -iprefix D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c9575.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\windows\\TEMP\\ccSVrH4O.s]
-        ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)]
-        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: [COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b472c.dir/']
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b472c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\cct9DWD4.s]
+        ignore line: [GNU C23 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"]
-        ignore line: [ignoring nonexistent directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 38d46cce87b47d821392243f8c902d07]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c9575.dir/']
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj C:\\windows\\TEMP\\ccSVrH4O.s]
-        ignore line: [COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
-        ignore line: [LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj -o cmTC_c9575   && cd ."]
+        ignore line: [Compiler executable checksum: 095b29ed3549f595ba8c614f295895ef]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b472c.dir/']
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj C:\\Users\\hp\\AppData\\Local\\Temp\\cct9DWD4.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe  -v CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj -o cmTC_b472c.exe -Wl --out-implib libcmTC_b472c.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe]
-        ignore line: [Target: xtensa-esp-elf]
-        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
-        ignore line: [COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
-        ignore line: [LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_c9575' '-dumpdir' 'cmTC_c9575.']
-        link line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\windows\\TEMP\\ccazIHyY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_c9575 D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o\x0d]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe] ==> ignore
+        ignore line: [COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\cc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b472c.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b472c.']
+        link line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\cc0Lnsic.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b472c.exe D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_b472c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d]
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll] ==> ignore
-          arg [-plugin-opt=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\windows\\TEMP\\ccazIHyY.res] ==> ignore
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\cc0Lnsic.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--sysroot=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
-          arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_c9575] ==> ignore
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_c9575.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [cmTC_b472c.exe] ==> ignore
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [CMakeFiles/cmTC_b472c.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_b472c.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
           arg [-lgcc] ==> lib [gcc]
-          arg [-lc] ==> lib [c]
-          arg [-lnosys] ==> lib [nosys]
-          arg [-lc] ==> lib [c]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
           arg [-lgcc] ==> lib [gcc]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_c9575' '-dumpdir' 'cmTC_c9575.'\x0d]
-        ignore line: []
-        ignore line: []
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
-        implicit libs: [gcc;c;nosys;c;gcc]
-        implicit objs: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        implicit dirs: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib]
         implicit fwks: []
       
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-w4w78e"
-      binary: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-w4w78e"
+      source: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-587z3x"
+      binary: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-587z3x"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake;D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/third_party"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-w4w78e'
+        Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-587z3x'
         
-        Run Build Command(s): D:/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_a51be
-        [1/2] D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/Ninja/bin/ninja.exe -v cmTC_693e8
+        [1/2] D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj -c D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
-        Target: xtensa-esp-elf
-        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a51be.dir/'
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus.exe -quiet -v -imultilib esp32s3 -iprefix D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a51be.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\windows\\TEMP\\ccB6wG6e.s
-        GNU C++17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)
-        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_693e8.dir/'
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_693e8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\cca5LvIY.s
+        GNU C++17 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"
-        ignoring nonexistent directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"
-        ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
-        Compiler executable checksum: 36f90ab7ffea0d7cc4d0c7b1a89d7e55
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a51be.dir/'
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj C:\\windows\\TEMP\\ccB6wG6e.s
-        COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
-        LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/\x0d
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a51be   && cd ."
+        Compiler executable checksum: d36d25bbc8758db73b3fef2a044ea176
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_693e8.dir/'
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\hp\\AppData\\Local\\Temp\\cca5LvIY.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe  -v CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_693e8.exe -Wl,--out-implib,libcmTC_693e8.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
-        COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
-        COLLECT_LTO_WRAPPER=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe
-        Target: xtensa-esp-elf
-        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
-        COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
-        LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_a51be' '-dumpdir' 'cmTC_a51be.'
-         D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\windows\\TEMP\\ccNItgmp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_a51be D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o\x0d
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_a51be' '-dumpdir' 'cmTC_a51be.'\x0d
+        COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 
+        COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_693e8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_693e8.'
+         D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\ccYcVqle.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_693e8.exe D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_693e8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_693e8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_693e8.'\x0d
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0]
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3]
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward]
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
-          add: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         end of search list found
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0]
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3]
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward]
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include]
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
-        collapse include dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
-        implicit include dirs: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/project.cmake:571 (__project)"
-      - "CMakeLists.txt:4 (project)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-w4w78e']
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-587z3x']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_a51be]
-        ignore line: [[1/2] D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/Ninja/bin/ninja.exe -v cmTC_693e8]
+        ignore line: [[1/2] D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj -c D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
-        ignore line: [Target: xtensa-esp-elf]
-        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a51be.dir/']
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus.exe -quiet -v -imultilib esp32s3 -iprefix D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a51be.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\windows\\TEMP\\ccB6wG6e.s]
-        ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)]
-        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: [COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_693e8.dir/']
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_693e8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\cca5LvIY.s]
+        ignore line: [GNU C++17 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"]
-        ignore line: [ignoring nonexistent directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"]
-        ignore line: [ignoring duplicate directory "D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/mingw/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 36f90ab7ffea0d7cc4d0c7b1a89d7e55]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a51be.dir/']
-        ignore line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj C:\\windows\\TEMP\\ccB6wG6e.s]
-        ignore line: [COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
-        ignore line: [LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-g++.exe -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a51be   && cd ."]
+        ignore line: [Compiler executable checksum: d36d25bbc8758db73b3fef2a044ea176]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_693e8.dir/']
+        ignore line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\hp\\AppData\\Local\\Temp\\cca5LvIY.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe  -v CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_693e8.exe -Wl --out-implib libcmTC_693e8.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe]
-        ignore line: [Target: xtensa-esp-elf]
-        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
-        ignore line: [COMPILER_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
-        ignore line: [LIBRARY_PATH=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
-        ignore line: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_a51be' '-dumpdir' 'cmTC_a51be.']
-        link line: [ D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\windows\\TEMP\\ccNItgmp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_a51be D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o\x0d]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe] ==> ignore
+        ignore line: [COLLECT_GCC=D:\\1hqyj\\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\\mingw64\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (x86_64-win32-seh-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_693e8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_693e8.']
+        link line: [ D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\ccYcVqle.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_693e8.exe D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_693e8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o\x0d]
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll] ==> ignore
-          arg [-plugin-opt=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\windows\\TEMP\\ccNItgmp.res] ==> ignore
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\ccYcVqle.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--sysroot=D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
-          arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev0/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_a51be] ==> ignore
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
-          arg [-LD:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_a51be.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [cmTC_693e8.exe] ==> ignore
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [CMakeFiles/cmTC_693e8.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_693e8.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
-          arg [-lm] ==> lib [m]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
           arg [-lgcc] ==> lib [gcc]
-          arg [-lc] ==> lib [c]
-          arg [-lnosys] ==> lib [nosys]
-          arg [-lc] ==> lib [c]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
           arg [-lgcc] ==> lib [gcc]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o]
-          arg [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o] ==> obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_a51be' '-dumpdir' 'cmTC_a51be.'\x0d]
-        ignore line: []
-        ignore line: []
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o]
-        collapse obj [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
-        collapse library dir [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
-        implicit libs: [stdc++;m;gcc;c;nosys;c;gcc]
-        implicit objs: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        implicit dirs: [D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib;D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/usr/lib]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;mingwex;kernel32]
+        implicit objs: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/x86_64-w64-mingw32/lib;D:/1hqyj/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib]
         implicit fwks: []
       
       
+...
+
+---
+events:
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt:139 (find_package)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
-    directories:
-      source: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-4r71hq"
-      binary: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-4r71hq"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake;D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/third_party"
-    buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
-      cached: true
-      stdout: |
-        Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-4r71hq'
-        
-        Run Build Command(s): D:/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_b05d6
-        [1/2] D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_b05d6.dir/src.c.obj -c F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-4r71hq/src.c
-        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  CMakeFiles/cmTC_b05d6.dir/src.c.obj -o cmTC_b05d6   && cd ."
-        D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_b05d6.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
-        D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_b05d6.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_b05d6.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_b05d6.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_b05d6.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_b05d6.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail\x0d
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "D:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
-      - "D:/Users/hp/esp/v5.4/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt:222 (CHECK_C_COMPILER_FLAG)"
-    checks:
-      - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
-    directories:
-      source: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-92dhat"
-      binary: "F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-92dhat"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "D:/Users/hp/esp/v5.4/esp-idf/tools/cmake;D:/Users/hp/esp/v5.4/esp-idf/tools/cmake/third_party"
-    buildResult:
-      variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
-      cached: true
-      stdout: |
-        Change Dir: 'F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-92dhat'
-        
-        Run Build Command(s): D:/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_ef7ee
-        [1/2] D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_ef7ee.dir/src.c.obj -c F:/1/GitHub/Skydimo-MVP/ESP32_Projects/ESP32_Screen_System/build/CMakeFiles/CMakeScratch/TryCompile-92dhat/src.c
-        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_ef7ee.dir/src.c.obj -o cmTC_ef7ee   && cd ."
-        
-      exitCode: 0
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "D:/1hqyj/software/STM32CubeCLT/STM32CubeCLT_1.19.0/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Espressif/frameworks/esp-idf-v5.4.2/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      cc.exe (x86_64-win32-seh-rev0, Built by MinGW-Builds project) 15.2.0
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
 ...

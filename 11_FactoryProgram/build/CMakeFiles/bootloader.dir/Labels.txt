@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/CMakeFiles/bootloader
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/CMakeFiles/bootloader.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/CMakeFiles/bootloader-complete.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/1/GitHub/Skydimo-MVP/11_FactoryProgram/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

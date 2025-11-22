@@ -1,20 +1,20 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.espIdfPathWin": "D:\\Users\\hp\\esp\\v5.4\\esp-idf",
-  "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.espIdfPathWin": "D:\\Users\\hp\\esp\\v5.4.3\\esp-idf",
+  "idf.pythonInstallPath": "d:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
   "idf.openOcdConfigs": [
-    "board/esp32-wrover-kit-3.3v.cfg"
+    "board/esp32s3-builtin.cfg"
   ],
-  "idf.toolsPathWin": "D:\\Espressif",
+  "idf.toolsPathWin": "d:\\Espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
   },
-  "clangd.path": "D:\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.path": "d:\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
   "clangd.arguments": [
     "--background-index",
-    "--query-driver=D:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
-    "--compile-commands-dir=d:\\ESP32_Projects\\ESP32_Screen_System\\build"
+    "--query-driver=d:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+    "--compile-commands-dir=${workspaceFolder}\\build"
   ],
-  "idf.flashType": "UART",
-  "idf.portWin": "COM10"
+  "idf.portWin": "COM11",
+  "idf.flashType": "UART"
 }
