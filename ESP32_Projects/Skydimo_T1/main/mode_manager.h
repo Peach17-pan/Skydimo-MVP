@@ -1,15 +1,29 @@
-#pragma once
-#include <stdint.h>
+#ifndef MODE_MANAGER_H
+#define MODE_MANAGER_H
 
-typedef enum {
-    MODE_CLOCK = 0,    // 时钟模式
-    MODE_WEATHER,      // 天气模式  
-    MODE_GALLERY,      // 相册模式
-    MODE_KEYBOARD,     // 键盘模式
-    MODE_CONFIG,       // 配网模式
-    MODE_MAX
-} mode_t;
+#include "user_config.h"
 
-mode_t mode_get(void);
-mode_t mode_next(void);
-void mode_set(mode_t new_mode);  // 新增：设置特定模式
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+// 模式管理器初始化
+void mode_manager_init(void);
+
+// 获取当前模式
+device_mode_t get_current_mode(void);
+
+// 切换到下一个模式
+void switch_to_next_mode(void);
+
+// 切换到指定模式
+void switch_to_mode(device_mode_t new_mode);
+
+// 获取模式名称
+const char* get_mode_name(device_mode_t mode);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

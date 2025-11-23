@@ -1,3 +1,3 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.5)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(Skydimo_T1)
+project(SKYDIMO_T1)
