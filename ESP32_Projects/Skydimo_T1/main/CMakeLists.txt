@@ -1,3 +1,4 @@
+# 主组件配置
 idf_component_register(
     SRCS "main.c" 
          "i2c_bsp.c" 
@@ -8,74 +9,54 @@ idf_component_register(
     INCLUDE_DIRS "."
 )
 
-# 包含 LVGL
-target_include_directories(${COMPONENT_LIB} PRIVATE 
-    ../components/lvgl
-)
-
-# LVGL 配置
+# LVGL配置
 target_compile_definitions(${COMPONENT_LIB} PRIVATE 
     LV_LVGL_H_INCLUDE_SIMPLE
     LV_CONF_INCLUDE_SIMPLE
-    LV_CONF_PATH="lv_conf.h"
 )
 
-# 只添加实际存在的核心文件
-set(LVGL_CORE_SOURCES
-    ../components/lvgl/src/core/lv_obj.c
-    ../components/lvgl/src/core/lv_group.c
-    ../components/lvgl/src/core/lv_refr.c
-    ../components/lvgl/src/core/lv_obj_class.c
-    ../components/lvgl/src/core/lv_obj_draw.c
-    ../components/lvgl/src/core/lv_obj_event.c
-    ../components/lvgl/src/core/lv_obj_pos.c
-    ../components/lvgl/src/core/lv_obj_scroll.c
-    ../components/lvgl/src/core/lv_obj_style.c
-    ../components/lvgl/src/core/lv_obj_style_gen.c
-    ../components/lvgl/src/core/lv_obj_tree.c
+# 包含必要的LVGL源文件
+set(LVGL_SOURCES
+    ${LVGL_DIR}/src/core/lv_obj.c
+    ${LVGL_DIR}/src/core/lv_group.c
+    ${LVGL_DIR}/src/core/lv_refr.c
+    ${LVGL_DIR}/src/core/lv_obj_class.c
+    ${LVGL_DIR}/src/core/lv_obj_draw.c
+    ${LVGL_DIR}/src/core/lv_obj_event.c
+    ${LVGL_DIR}/src/core/lv_obj_pos.c
+    ${LVGL_DIR}/src/core/lv_obj_style.c
+    ${LVGL_DIR}/src/core/lv_obj_tree.c
+    ${LVGL_DIR}/src/misc/lv_color.c
+    ${LVGL_DIR}/src/misc/lv_area.c
+    ${LVGL_DIR}/src/misc/lv_anim.c
+    ${LVGL_DIR}/src/misc/lv_timer.c
+    ${LVGL_DIR}/src/hal/lv_hal_disp.c
+    ${LVGL_DIR}/src/hal/lv_hal_indev.c
+    ${LVGL_DIR}/src/hal/lv_hal_tick.c
+    ${LVGL_DIR}/src/widgets/lv_label.c
+    ${LVGL_DIR}/src/widgets/lv_obj.c
+    ${LVGL_DIR}/src/font/lv_font.c
+    ${LVGL_DIR}/src/font/lv_font_montserrat_12.c
+    ${LVGL_DIR}/src/font/lv_font_montserrat_14.c
+    ${LVGL_DIR}/src/font/lv_font_montserrat_16.c
+    ${LVGL_DIR}/src/draw/lv_draw.c
+    ${LVGL_DIR}/src/draw/lv_draw_rect.c
+    ${LVGL_DIR}/src/draw/lv_draw_label.c
+    ${LVGL_DIR}/src/display/lv_display.c
+    ${LVGL_DIR}/src/indev/lv_indev.c
 )
 
-# 检查并添加 misc 目录的文件
-if(EXISTS "../components/lvgl/src/misc")
-    file(GLOB LVGL_MISC_SOURCES "../components/lvgl/src/misc/*.c")
-    list(APPEND LVGL_CORE_SOURCES ${LVGL_MISC_SOURCES})
-endif()
-
-# 检查并添加 hal 目录的文件  
-if(EXISTS "../components/lvgl/src/hal")
-    file(GLOB LVGL_HAL_SOURCES "../components/lvgl/src/hal/*.c")
-    list(APPEND LVGL_CORE_SOURCES ${LVGL_HAL_SOURCES})
-endif()
-
-# 检查并添加 widgets 目录的文件
-if(EXISTS "../components/lvgl/src/widgets")
-    file(GLOB LVGL_WIDGET_SOURCES "../components/lvgl/src/widgets/*.c")
-    list(APPEND LVGL_CORE_SOURCES ${LVGL_WIDGET_SOURCES})
-endif()
-
-# 检查并添加 draw 目录的文件
-if(EXISTS "../components/lvgl/src/draw")
-    file(GLOB LVGL_DRAW_SOURCES "../components/lvgl/src/draw/*.c")
-    list(APPEND LVGL_CORE_SOURCES ${LVGL_DRAW_SOURCES})
-endif()
-
-# 检查并添加 font 目录的文件
-if(EXISTS "../components/lvgl/src/font")
-    file(GLOB LVGL_FONT_SOURCES "../components/lvgl/src/font/*.c")
-    list(APPEND LVGL_CORE_SOURCES ${LVGL_FONT_SOURCES})
-endif()
-
-# 排除有问题的文件
-list(FILTER LVGL_CORE_SOURCES EXCLUDE REGEX ".*sysmon.*")
-list(FILTER LVGL_CORE_SOURCES EXCLUDE REGEX ".*observer.*")
-list(FILTER LVGL_CORE_SOURCES EXCLUDE REGEX ".*monitor.*")
-
-# 只添加实际存在的文件
-foreach(source_file ${LVGL_CORE_SOURCES})
+# 添加LVGL源文件
+foreach(source_file ${LVGL_SOURCES})
     if(EXISTS ${source_file})
         target_sources(${COMPONENT_LIB} PRIVATE ${source_file})
-        message(STATUS "Adding LVGL source: ${source_file}")
     else()
-        message(WARNING "LVGL source file not found: ${source_file}")
+        # 尝试在components目录下查找
+        string(REPLACE "${LVGL_DIR}" "../components/lvgl" alt_source_file ${source_file})
+        if(EXISTS ${alt_source_file})
+            target_sources(${COMPONENT_LIB} PRIVATE ${alt_source_file})
+        else()
+            message(WARNING "LVGL source file not found: ${source_file}")
+        endif()
     endif()
 endforeach()

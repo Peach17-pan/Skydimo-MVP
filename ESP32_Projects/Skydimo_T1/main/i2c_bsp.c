@@ -8,10 +8,8 @@ i2c_master_dev_handle_t rtc_dev_handle = NULL;
 i2c_master_dev_handle_t imu_dev_handle = NULL;
 i2c_master_dev_handle_t disp_touch_dev_handle = NULL;
 
-
 static uint32_t i2c_data_pdMS_TICKS = 0;
 static uint32_t i2c_done_pdMS_TICKS = 0;
-
 
 void touch_i2c_master_Init(void)
 {
@@ -67,6 +65,7 @@ uint8_t i2c_writr_buff(i2c_master_dev_handle_t dev_handle,int reg,uint8_t *buf,u
   }
   return ret;
 }
+
 uint8_t i2c_master_write_read_dev(i2c_master_dev_handle_t dev_handle,uint8_t *writeBuf,uint8_t writeLen,uint8_t *readBuf,uint8_t readLen)
 {
   uint8_t ret;
@@ -76,6 +75,7 @@ uint8_t i2c_master_write_read_dev(i2c_master_dev_handle_t dev_handle,uint8_t *wr
   ret = i2c_master_transmit_receive(dev_handle,writeBuf,writeLen,readBuf,readLen,i2c_data_pdMS_TICKS);
   return ret;
 }
+
 uint8_t i2c_read_buff(i2c_master_dev_handle_t dev_handle,int reg,uint8_t *buf,uint8_t len)
 {
   uint8_t ret;
@@ -90,4 +90,8 @@ uint8_t i2c_read_buff(i2c_master_dev_handle_t dev_handle,int reg,uint8_t *buf,ui
   return ret;
 }
 
-
+// 添加缺失的函数实现
+uint8_t i2c_master_touch_write_read(i2c_master_dev_handle_t dev_handle,uint8_t *writeBuf,uint8_t writeLen,uint8_t *readBuf,uint8_t readLen)
+{
+    return i2c_master_write_read_dev(dev_handle, writeBuf, writeLen, readBuf, readLen);
+}

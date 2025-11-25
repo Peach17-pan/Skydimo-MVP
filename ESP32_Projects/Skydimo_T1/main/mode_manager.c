@@ -43,7 +43,7 @@ void switch_to_next_mode(void)
 {
     if (mode_mutex && xSemaphoreTake(mode_mutex, portMAX_DELAY)) {
         device_mode_t old_mode = current_mode;
-        current_mode = (current_mode + 1) % MODE_MAX;
+        current_mode = (device_mode_t)((current_mode + 1) % MODE_MAX);
         xSemaphoreGive(mode_mutex);
         
         ESP_LOGI(TAG, "Mode switched from %s to %s", 
