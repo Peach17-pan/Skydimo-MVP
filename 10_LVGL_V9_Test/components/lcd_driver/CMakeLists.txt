@@ -1,6 +1,0 @@
-idf_component_register(
-    SRCS "lcd_driver.c"
-    INCLUDE_DIRS "."
-    REQUIRES driver
-    PRIV_REQUIRES main
-)

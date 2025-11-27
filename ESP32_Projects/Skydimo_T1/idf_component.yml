@@ -1,7 +1,0 @@
-## IDF Component Manager Manifest File
-dependencies:
-  ## Required IDF version
-  idf:
-    version: '>=4.1.0'
-  # 移除对 esp_lcd_axs15231b 的依赖
-  lvgl/lvgl: ^8.4.0

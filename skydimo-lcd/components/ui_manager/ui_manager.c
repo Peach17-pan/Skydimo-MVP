@@ -1,203 +1,333 @@
+// ui_manager.c
 #include "ui_manager.h"
 #include "esp_lcd_axs15231b.h"
 #include "esp_log.h"
 #include "driver/gpio.h"
 #include "driver/spi_master.h"
 #include "esp_lcd_panel_ops.h"
-#include "esp_lcd_panel_io.h"  // 添加这个头文件
+#include "esp_lcd_panel_io.h"
+#include "lvgl.h"
 #include <string.h>
 
 static const char *TAG = "ui_manager";
 
-esp_lcd_panel_handle_t panel_handle = NULL;
+static SemaphoreHandle_t lvgl_mutex = NULL;
+static lv_obj_t *current_screen = NULL;
 
+// 颜色定义
+static lv_color_t mode_colors[MODE_MAX] = {
+    LV_COLOR_MAKE(0x00, 0x7A, 0xFF),  // MODE_WIFI - 蓝色
+    LV_COLOR_MAKE(0x4C, 0xAF, 0x50),  // MODE_CLOCK - 绿色
+    LV_COLOR_MAKE(0x00, 0xBC, 0xD4),  // MODE_WEATHER - 青色
+    LV_COLOR_MAKE(0x9C, 0x27, 0xB0),  // MODE_GALLERY - 紫色
+    LV_COLOR_MAKE(0xFF, 0x98, 0x00),  // MODE_KEYBOARD - 橙色
+};
 
-// LCD配置
-#define LCD_PIXEL_CLOCK_HZ     (20 * 1000 * 1000)
-#define LCD_BK_LIGHT_ON_LEVEL  1
-#define LCD_BK_LIGHT_OFF_LEVEL !LCD_BK_LIGHT_ON_LEVEL
+// 模式名称
+static const char* mode_names[MODE_MAX] = {
+    "WiFi配网模式",
+    "时钟模式",
+    "天气模式", 
+    "相册模式",
+    "虚拟键盘模式"
+};
 
-#define LCD_HRES               320
-#define LCD_VRES               240
+// LVGL刷新回调
+static void lvgl_flush_cb(lv_display_t * disp, const lv_area_t * area, uint8_t * px_map)
+{
+    system_handle_t *sys_handle = (system_handle_t *)lv_display_get_user_data(disp);
+    
+    int offsetx1 = area->x1;
+    int offsetx2 = area->x2 + 1;
+    int offsety1 = area->y1;
+    int offsety2 = area->y2 + 1;
+    
+    esp_lcd_panel_draw_bitmap(sys_handle->panel_handle, offsetx1, offsety1, offsetx2, offsety2, (void *)px_map);
+    lv_display_flush_ready(disp);
+}
 
-// SPI引脚配置
-#define PIN_NUM_SCLK           12
-#define PIN_NUM_MOSI           11
-#define PIN_NUM_MISO           -1
-#define PIN_NUM_LCD_CS         10
-#define PIN_NUM_LCD_DC         9
-#define PIN_NUM_LCD_RST        5
-#define PIN_NUM_LCD_BL         6
-#define PIN_NUM_TOUCH_CS       4
-#define PIN_NUM_TOUCH_RST      3
+// 触摸输入回调
+static void touchpad_read_cb(lv_indev_t * indev, lv_indev_data_t * data)
+{
+    // 这里先模拟触摸数据，后续任务会实现真实触摸
+    static int16_t last_x = 0;
+    static int16_t last_y = 0;
+    
+    data->point.x = last_x;
+    data->point.y = last_y;
+    data->state = LV_INDEV_STATE_RELEASED;
+    
+    // 简单模拟触摸移动
+    last_x = (last_x + 10) % EXAMPLE_LCD_H_RES;
+    last_y = (last_y + 10) % EXAMPLE_LCD_V_RES;
+}
 
-// 颜色定义 (RGB565)
-#define COLOR_BLACK        0x0000
-#define COLOR_WHITE        0xFFFF
-#define COLOR_RED          0xF800
-#define COLOR_GREEN        0x07E0
-#define COLOR_BLUE         0x001F
-#define COLOR_YELLOW       0xFFE0
-#define COLOR_CYAN         0x07FF
-#define COLOR_MAGENTA      0xF81F
-#define COLOR_GRAY         0x8410
-#define COLOR_DARK_GRAY    0x4208
-#define COLOR_LIGHT_GRAY   0xC618
+// 创建WiFi模式界面
+void ui_create_wifi_screen(lv_obj_t *parent)
+{
+    lv_obj_set_style_bg_color(parent, mode_colors[MODE_WIFI], 0);
+    
+    // 标题
+    lv_obj_t *title = lv_label_create(parent);
+    lv_label_set_text(title, "WiFi配网模式");
+    lv_obj_set_style_text_color(title, lv_color_white(), 0);
+    lv_obj_set_style_text_font(title, &lv_font_montserrat_24, 0);
+    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 40);
+    
+    // 状态提示
+    lv_obj_t *status = lv_label_create(parent);
+    lv_label_set_text(status, "长按进入配网设置");
+    lv_obj_set_style_text_color(status, lv_color_white(), 0);
+    lv_obj_align(status, LV_ALIGN_CENTER, 0, 0);
+    
+    // 图标
+    lv_obj_t *icon = lv_label_create(parent);
+    lv_label_set_text(icon, LV_SYMBOL_WIFI);
+    lv_obj_set_style_text_color(icon, lv_color_white(), 0);
+    lv_obj_set_style_text_font(icon, &lv_font_montserrat_48, 0);
+    lv_obj_align(icon, LV_ALIGN_BOTTOM_MID, 0, -40);
+}
 
-static esp_lcd_panel_io_handle_t io_handle = NULL;
-//static esp_lcd_panel_io_handle_t touch_io_handle = NULL;
+// 创建时钟模式界面
+void ui_create_clock_screen(lv_obj_t *parent)
+{
+    lv_obj_set_style_bg_color(parent, mode_colors[MODE_CLOCK], 0);
+    
+    // 标题
+    lv_obj_t *title = lv_label_create(parent);
+    lv_label_set_text(title, "时钟模式");
+    lv_obj_set_style_text_color(title, lv_color_white(), 0);
+    lv_obj_set_style_text_font(title, &lv_font_montserrat_24, 0);
+    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 40);
+    
+    // 时间显示
+    lv_obj_t *time_label = lv_label_create(parent);
+    lv_label_set_text(time_label, "12:00:00");
+    lv_obj_set_style_text_color(time_label, lv_color_white(), 0);
+    lv_obj_set_style_text_font(time_label, &lv_font_montserrat_36, 0);
+    lv_obj_align(time_label, LV_ALIGN_CENTER, 0, 0);
+    
+    // 日期显示
+    lv_obj_t *date_label = lv_label_create(parent);
+    lv_label_set_text(date_label, "2024-01-01");
+    lv_obj_set_style_text_color(date_label, lv_color_white(), 0);
+    lv_obj_align(date_label, LV_ALIGN_BOTTOM_MID, 0, -40);
+}
 
-esp_err_t ui_manager_init(system_handle_t *sys_handle) {
+// 创建天气模式界面
+void ui_create_weather_screen(lv_obj_t *parent)
+{
+    lv_obj_set_style_bg_color(parent, mode_colors[MODE_WEATHER], 0);
+    
+    lv_obj_t *title = lv_label_create(parent);
+    lv_label_set_text(title, "天气模式");
+    lv_obj_set_style_text_color(title, lv_color_white(), 0);
+    lv_obj_set_style_text_font(title, &lv_font_montserrat_24, 0);
+    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 40);
+    
+    // 天气图标
+    lv_obj_t *weather_icon = lv_label_create(parent);
+    lv_label_set_text(weather_icon, LV_SYMBOL_SUN);
+    lv_obj_set_style_text_color(weather_icon, lv_color_white(), 0);
+    lv_obj_set_style_text_font(weather_icon, &lv_font_montserrat_48, 0);
+    lv_obj_align(weather_icon, LV_ALIGN_CENTER, 0, -20);
+    
+    // 温度显示
+    lv_obj_t *temp_label = lv_label_create(parent);
+    lv_label_set_text(temp_label, "25°C");
+    lv_obj_set_style_text_color(temp_label, lv_color_white(), 0);
+    lv_obj_set_style_text_font(temp_label, &lv_font_montserrat_36, 0);
+    lv_obj_align(temp_label, LV_ALIGN_CENTER, 0, 40);
+}
+
+// 创建相册模式界面
+void ui_create_gallery_screen(lv_obj_t *parent)
+{
+    lv_obj_set_style_bg_color(parent, mode_colors[MODE_GALLERY], 0);
+    
+    lv_obj_t *title = lv_label_create(parent);
+    lv_label_set_text(title, "相册模式");
+    lv_obj_set_style_text_color(title, lv_color_white(), 0);
+    lv_obj_set_style_text_font(title, &lv_font_montserrat_24, 0);
+    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 40);
+    
+    // 相册图标
+    lv_obj_t *gallery_icon = lv_label_create(parent);
+    lv_label_set_text(gallery_icon, LV_SYMBOL_IMAGE);
+    lv_obj_set_style_text_color(gallery_icon, lv_color_white(), 0);
+    lv_obj_set_style_text_font(gallery_icon, &lv_font_montserrat_48, 0);
+    lv_obj_align(gallery_icon, LV_ALIGN_CENTER, 0, 0);
+    
+    // 提示文字
+    lv_obj_t *hint = lv_label_create(parent);
+    lv_label_set_text(hint, "左右滑动切换图片");
+    lv_obj_set_style_text_color(hint, lv_color_white(), 0);
+    lv_obj_align(hint, LV_ALIGN_BOTTOM_MID, 0, -40);
+}
+
+// 创建虚拟键盘模式界面
+void ui_create_keyboard_screen(lv_obj_t *parent)
+{
+    lv_obj_set_style_bg_color(parent, mode_colors[MODE_KEYBOARD], 0);
+    
+    lv_obj_t *title = lv_label_create(parent);
+    lv_label_set_text(title, "虚拟键盘模式");
+    lv_obj_set_style_text_color(title, lv_color_white(), 0);
+    lv_obj_set_style_text_font(title, &lv_font_montserrat_24, 0);
+    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 40);
+    
+    // 键盘图标
+    lv_obj_t *keyboard_icon = lv_label_create(parent);
+    lv_label_set_text(keyboard_icon, LV_SYMBOL_KEYBOARD);
+    lv_obj_set_style_text_color(keyboard_icon, lv_color_white(), 0);
+    lv_obj_set_style_text_font(keyboard_icon, &lv_font_montserrat_48, 0);
+    lv_obj_align(keyboard_icon, LV_ALIGN_CENTER, 0, 0);
+    
+    // 提示文字
+    lv_obj_t *hint = lv_label_create(parent);
+    lv_label_set_text(hint, "触摸按键控制PC");
+    lv_obj_set_style_text_color(hint, lv_color_white(), 0);
+    lv_obj_align(hint, LV_ALIGN_BOTTOM_MID, 0, -40);
+}
+
+// 切换屏幕
+static void ui_switch_screen(system_handle_t *sys_handle, system_mode_t mode)
+{
+    if (xSemaphoreTake(lvgl_mutex, portMAX_DELAY)) {
+        // 删除旧屏幕
+        if (current_screen) {
+            lv_obj_del(current_screen);
+        }
+        
+        // 创建新屏幕
+        current_screen = lv_obj_create(NULL);
+        
+        // 根据模式创建对应界面
+        switch (mode) {
+            case MODE_WIFI:
+                ui_create_wifi_screen(current_screen);
+                break;
+            case MODE_CLOCK:
+                ui_create_clock_screen(current_screen);
+                break;
+            case MODE_WEATHER:
+                ui_create_weather_screen(current_screen);
+                break;
+            case MODE_GALLERY:
+                ui_create_gallery_screen(current_screen);
+                break;
+            case MODE_KEYBOARD:
+                ui_create_keyboard_screen(current_screen);
+                break;
+            default:
+                break;
+        }
+        
+        // 加载屏幕
+        lv_scr_load(current_screen);
+        xSemaphoreGive(lvgl_mutex);
+    }
+}
+
+// LVGL定时器回调
+static void lvgl_tick_cb(void *arg)
+{
+    lv_tick_inc(LVGL_TICK_PERIOD_MS);
+}
+
+// LVGL任务
+static void lvgl_task(void *arg)
+{
+    while (1) {
+        if (xSemaphoreTake(lvgl_mutex, portMAX_DELAY)) {
+            lv_timer_handler();
+            xSemaphoreGive(lvgl_mutex);
+        }
+        vTaskDelay(pdMS_TO_TICKS(10));
+    }
+}
+
+esp_err_t ui_manager_init(system_handle_t *sys_handle)
+{
     ESP_LOGI(TAG, "初始化UI管理器");
     
-    esp_err_t ret;
-    
-    // SPI总线初始化
-    spi_bus_config_t buscfg = {
-        .sclk_io_num = PIN_NUM_SCLK,
-        .mosi_io_num = PIN_NUM_MOSI,
-        .miso_io_num = PIN_NUM_MISO,
-        .quadwp_io_num = -1,
-        .quadhd_io_num = -1,
-        .max_transfer_sz = LCD_HRES * LCD_VRES * sizeof(uint16_t),
-    };
-    ret = spi_bus_initialize(SPI2_HOST, &buscfg, SPI_DMA_CH_AUTO);
-    if (ret != ESP_OK) {
-        ESP_LOGE(TAG, "SPI总线初始化失败");
-        return ret;
+    // 创建LVGL互斥锁
+    lvgl_mutex = xSemaphoreCreateMutex();
+    if (!lvgl_mutex) {
+        ESP_LOGE(TAG, "创建LVGL互斥锁失败");
+        return ESP_FAIL;
     }
     
-    // LCD IO控制器初始化
-    esp_lcd_panel_io_spi_config_t io_config = {
-        .dc_gpio_num = PIN_NUM_LCD_DC,
-        .cs_gpio_num = PIN_NUM_LCD_CS,
-        .pclk_hz = LCD_PIXEL_CLOCK_HZ,
-        .lcd_cmd_bits = 8,
-        .lcd_param_bits = 8,
-        .spi_mode = 0,
-        .trans_queue_depth = 10,
-    };
-    ret = esp_lcd_new_panel_io_spi((esp_lcd_spi_bus_handle_t)SPI2_HOST, &io_config, &io_handle);
-    if (ret != ESP_OK) {
-        ESP_LOGE(TAG, "LCD IO控制器初始化失败");
-        return ret;
+    // 初始化LVGL
+    lv_init();
+    
+    // 创建显示缓冲区
+    static lv_color_t *buf1 = NULL;
+    static lv_color_t *buf2 = NULL;
+    size_t buffer_size = EXAMPLE_LCD_H_RES * 40 * sizeof(lv_color_t);
+    
+    buf1 = heap_caps_malloc(buffer_size, MALLOC_CAP_SPIRAM);
+    buf2 = heap_caps_malloc(buffer_size, MALLOC_CAP_SPIRAM);
+    
+    if (!buf1 || !buf2) {
+        ESP_LOGE(TAG, "分配显示缓冲区失败");
+        return ESP_FAIL;
     }
     
-    // LCD面板初始化
-    esp_lcd_panel_dev_config_t panel_config = {
-        .reset_gpio_num = PIN_NUM_LCD_RST,
-        .color_space = ESP_LCD_COLOR_SPACE_RGB,
-        .bits_per_pixel = 16,
+    // 创建显示设备
+    lv_display_t *disp = lv_display_create(EXAMPLE_LCD_H_RES, EXAMPLE_LCD_V_RES);
+    lv_display_set_flush_cb(disp, lvgl_flush_cb);
+    lv_display_set_buffers(disp, buf1, buf2, buffer_size, LV_DISPLAY_RENDER_MODE_PARTIAL);
+    lv_display_set_user_data(disp, sys_handle);
+    
+    // 创建输入设备
+    lv_indev_t *indev = lv_indev_create();
+    lv_indev_set_type(indev, LV_INDEV_TYPE_POINTER);
+    lv_indev_set_read_cb(indev, touchpad_read_cb);
+    
+    sys_handle->lv_display = disp;
+    sys_handle->touch_indev = indev;
+    
+    // 创建LVGL定时器
+    const esp_timer_create_args_t lvgl_tick_timer_args = {
+        .callback = &lvgl_tick_cb,
+        .name = "lvgl_tick"
     };
-    ret = esp_lcd_new_panel_axs15231b(io_handle, &panel_config, &sys_handle->panel_handle);
-    if (ret != ESP_OK) {
-        ESP_LOGE(TAG, "LCD面板初始化失败");
-        return ret;
-    }
     
-    // 保存面板句柄到全局变量
-    panel_handle = sys_handle->panel_handle;
+    esp_timer_handle_t lvgl_tick_timer = NULL;
+    esp_timer_create(&lvgl_tick_timer_args, &lvgl_tick_timer);
+    esp_timer_start_periodic(lvgl_tick_timer, LVGL_TICK_PERIOD_MS * 1000);
     
-    esp_lcd_panel_reset(sys_handle->panel_handle);
-    esp_lcd_panel_init(sys_handle->panel_handle);
-    esp_lcd_panel_disp_on_off(sys_handle->panel_handle, true);
+    // 创建LVGL任务
+    xTaskCreate(lvgl_task, "LVGL", LVGL_TASK_STACK_SIZE, NULL, LVGL_TASK_PRIORITY, NULL);
     
-    // 修复背光控制 - 使用正确的 GPIO 配置方式
-    gpio_config_t bk_gpio_config = {
-        .pin_bit_mask = (1ULL << PIN_NUM_LCD_BL),
-        .mode = GPIO_MODE_OUTPUT,
-        .pull_up_en = GPIO_PULLUP_DISABLE,
-        .pull_down_en = GPIO_PULLDOWN_DISABLE,
-        .intr_type = GPIO_INTR_DISABLE,
-    };
-    ret = gpio_config(&bk_gpio_config);
-    if (ret != ESP_OK) {
-        ESP_LOGE(TAG, "背光GPIO配置失败");
-        return ret;
-    }
-    gpio_set_level(PIN_NUM_LCD_BL, LCD_BK_LIGHT_ON_LEVEL);
+    // 创建初始屏幕
+    ui_switch_screen(sys_handle, sys_handle->current_mode);
     
-    sys_handle->display_initialized = true;
-    ESP_LOGI(TAG, "LCD显示初始化完成");
-    
+    ESP_LOGI(TAG, "UI管理器初始化完成");
     return ESP_OK;
 }
 
-void ui_show_current_mode(system_handle_t *sys_handle) {
-    if (!sys_handle->display_initialized) {
-        ESP_LOGI(TAG, "显示未初始化，跳过UI绘制");
-        return;
-    }
-    
-    // 简单清屏
-    ui_clear_screen();
-    
-    // 根据模式显示不同内容
-    switch (sys_handle->current_mode) {
-        case MODE_WIFI:
-            ui_draw_text_center("WiFi Mode", 80, COLOR_WHITE);
-            break;
-        case MODE_CLOCK:
-            ui_draw_text_center("Clock Mode", 80, COLOR_WHITE);
-            break;
-        case MODE_WEATHER:
-            ui_draw_text_center("Weather Mode", 80, COLOR_WHITE);
-            break;
-        case MODE_GALLERY:
-            ui_draw_text_center("Gallery Mode", 80, COLOR_WHITE);
-            break;
-        case MODE_KEYBOARD:
-            ui_draw_text_center("Keyboard Mode", 80, COLOR_WHITE);
-            break;
-        default:
-            break;
-    }
-    
+void ui_show_current_mode(system_handle_t *sys_handle)
+{
+    ESP_LOGI(TAG, "切换到模式: %s", ui_get_mode_name(sys_handle->current_mode));
+    ui_switch_screen(sys_handle, sys_handle->current_mode);
     sys_handle->mode_start_time = xTaskGetTickCount();
 }
 
-void ui_clear_screen(void) {
-    if (!panel_handle) return;
-    
-    // 简单的清屏实现 - 填充黑色
-    uint16_t black_color = 0x0000; // RGB565 黑色
-    esp_lcd_panel_draw_bitmap(panel_handle, 0, 0, LCD_HRES, LCD_VRES, &black_color);
+void ui_handle_touch(system_handle_t *sys_handle, uint16_t x, uint16_t y)
+{
+    ESP_LOGI(TAG, "触摸事件: (%d, %d), 模式: %s", x, y, ui_get_mode_name(sys_handle->current_mode));
 }
 
-void ui_draw_text_center(const char *text, uint16_t y, uint16_t color) {
-    // 简化实现 - 在实际项目中需要实现字符绘制
-    // 这里只是示例，实际使用时需要真正的文本渲染
-    ESP_LOGI(TAG, "绘制文本: %s", text);
+void ui_handle_long_press(system_handle_t *sys_handle)
+{
+    ESP_LOGI(TAG, "长按操作 - 进入配网模式");
+    sys_handle->current_mode = MODE_WIFI;
+    ui_show_current_mode(sys_handle);
 }
 
-void ui_draw_rect(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint16_t color) {
-    if (!panel_handle) return;
-    
-    // 简化实现 - 绘制单色矩形
-    uint16_t *line_buffer = malloc(width * sizeof(uint16_t));
-    if (line_buffer) {
-        for (int i = 0; i < width; i++) {
-            line_buffer[i] = color;
-        }
-        for (int row = 0; row < height; row++) {
-            esp_lcd_panel_draw_bitmap(panel_handle, x, y + row, x + width, y + row + 1, line_buffer);
-        }
-        free(line_buffer);
-    }
-}
-
-void ui_handle_touch(system_handle_t *sys_handle, uint16_t x, uint16_t y) {
-    // 暂时不实现触摸功能
-    ESP_LOGI(TAG, "触摸事件: (%d, %d)", x, y);
-}
-
-void ui_handle_long_press(system_handle_t *sys_handle) {
-    // 长按操作处理
-    ESP_LOGI(TAG, "长按操作 - 当前模式: %d", sys_handle->current_mode);
-}
-
-void ui_update_status_display(system_handle_t *sys_handle) {
-    // 更新状态信息显示
-    uint32_t uptime = (xTaskGetTickCount() - sys_handle->mode_start_time) / 1000;
-    ESP_LOGI(TAG, "模式运行时间: %lu秒", uptime);
+const char* ui_get_mode_name(system_mode_t mode)
+{
+    return (mode < MODE_MAX) ? mode_names[mode] : "未知模式";
 }
