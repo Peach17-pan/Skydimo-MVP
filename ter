@@ -1,0 +1,59 @@
+[33mcommit faa3b2c88a85dbb3285141019c95ec94932959a3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Sat Nov 29 20:07:51 2025 +0800
+
+    实现自动上传给PC
+
+[33mcommit 75da7f783d5a7797e12c95049877da240125495a[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Thu Nov 27 21:50:56 2025 +0800
+
+    构建任务一，完成
+
+[33mcommit 11260e96e3e7d694fb7dbb6bffacb27deab46d20[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Thu Nov 27 21:45:42 2025 +0800
+
+    构建任务一，完成
+
+[33mcommit 6f1d1d5639ee51c9a67737b86bcd03be0d32bf09[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Wed Nov 26 18:28:24 2025 +0800
+
+    ESP-IDF下重构：按键正常，UI报错
+
+[33mcommit 54ff5f14b052096b7d27bd6b62456fa74649ff6e[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Tue Nov 25 18:39:44 2025 +0800
+
+    PIO重组
+
+[33mcommit 7b14137d6a6cc2ad88c1f461d50ad8fca98004cc[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Tue Nov 25 18:37:25 2025 +0800
+
+    PIO重组
+
+[33mcommit 4caac5234c71af30c1e9b4866399314576230993[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Sun Nov 23 19:45:36 2025 +0800
+
+    测试完善
+
+[33mcommit aec9b29497daa12bf7c2d52830e90deead844330[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Sat Nov 22 20:43:50 2025 +0800
+
+    重构+测试（部分报错）
+
+[33mcommit 6b3103670ed07427f59a690d0f18c25f31917187[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Tue Nov 18 18:19:26 2025 +0800
+
+    重构ESP32显示系统，支持多模式交互和QSPI驱动
+
+[33mcommit 3ec373f9305b860a1e4a0c5debadde8f9b9f6322[m
+Author: 陶子怡 <3150949063@qq.com>
+Date:   Tue Nov 18 09:44:50 2025 +0800
+
+    Initial commit: Skydimo MVP project
